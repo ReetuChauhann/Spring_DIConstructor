@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+<!--<bean class="com.reetu.beans.JavaBook" id="book"><constructor-arg name="name" value="Java Core"></constructor-arg><constructor-arg name="author" value="Rahul Chauhan"></constructor-arg></bean> -->
+
+
+<!-- <bean class="com.reetu.beans.JavaBook" id="book"><constructor-arg name="name" value="Java Core"></constructor-arg><constructor-arg name="price" value="2300"></constructor-arg><constructor-arg name="author" value="Rahul Chauhan"></constructor-arg></bean> -->
+
+
+<!-- <bean class="com.reetu.beans.JavaBook" id="book"><constructor-arg type="String" value="Java Core"></constructor-arg><constructor-arg type="String" value="Rahul Chauhan"></constructor-arg><constructor-arg type="double" value="2300"></constructor-arg></bean> -->
+
+
+
+<bean id="book" class="com.reetu.beans.JavaBook">
+
+<constructor-arg value="2300"/>
+
+<constructor-arg value="Java Core"/>
+
+</bean>
+
+</beans>
